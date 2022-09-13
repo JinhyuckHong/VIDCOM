@@ -1,0 +1,899 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#body{
+	background-color:#E2F5F0;
+}
+
+.box{
+	position:relative;
+	width: 700px;
+	height: 1300px;
+	margin:50px auto;
+	background: white;
+	box-shadow: 0px 0px 20px 0px #069475;
+	border-radius: 10px;
+}
+
+.registBox{
+	position:absolute;
+	margin:25px;
+	width: 645px;
+	height: 1200px;
+}
+#mainlogo{
+	position: absolute;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	color:black;
+	text-decoration:none;
+	left:260px;
+	font-size:35px;
+}
+.registbtn button:first-of-type{
+	position:absolute;
+	left:200px;
+	margin:60px 10px;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	border-color:black;
+	border:2px;
+	color:white;
+	background-color:#08C299;
+	font-size: 15px;
+}
+.registbtn button:first-of-type:hover{
+	cursor:pointer;
+}
+.registbtn button:first-of-type:active{
+	background-color:#069475;
+}
+
+.registbtn button:last-of-type{
+	position:absolute;
+	left:340px;
+	margin:60px 10px;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	border-color:black;
+	border:2px;
+	color:white;
+	background-color:#425FFF;
+	font-size: 15px;
+}
+
+.registbtn button:last-of-type:hover{
+	cursor:pointer;
+}
+.registbtn button:last-of-type:active{
+	background-color:#364ED1;
+}
+
+#userregisterdisplay{
+	position: absolute;
+	left:25px;
+	top:130px;
+}
+#companyregisterdisplay{
+	position: absolute;
+	left:25px;
+	top:130px;
+}
+#userIdTXT {
+	width:90px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:260px;
+	top:20px;
+	color:#08C299;
+}
+#userPwTXT{
+	width:90px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:255px;
+	top:110px;
+	color:#08C299;
+}
+#userId{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:50px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#pw1{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:140px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#id1{
+	position: absolute;
+	width:60px;
+	height:25px;
+	background-color:#08C299;
+	top:50px;
+	left:400px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:12px;
+}
+#idCheckMsg{
+	position:absolute;
+	width:400px;
+	text-align:center;
+	font-size:12px;
+	left:110px;
+	top:80px;
+}
+#pw1CheckText{
+	position:absolute;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+	left:205px;
+	top:170px;
+}
+/* 텍스트 */
+.pwCheck1{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:235px;
+	top:200px;
+	color:#08C299;
+}
+/* 인풋 */
+#pwCheck1{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:230px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#pwerror1{
+	position:absolute;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+	left:233px;
+	top:260px;
+}
+.username{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:290px;
+	color:#08C299;
+}
+#userInputName{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:320px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#companyIdTXT {
+	width:90px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:260px;
+	top:20px;
+	color:#425FFF;
+}
+#companyPwTXT{
+	width:90px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:255px;
+	top:110px;
+	color:#425FFF;
+}
+#companyId{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:50px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#pw2{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:140px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#id2{
+	position: absolute;
+	width:60px;
+	height:25px;
+	background-color:#425FFF;
+	top:50px;
+	left:400px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:12px;
+}
+#idCheckMsg2{
+	position:absolute;
+	width:400px;
+	text-align:center;
+	font-size:12px;
+	left:110px;
+	top:80px;
+}
+#pw2CheckText{
+	position:absolute;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+	left:205px;
+	top:160px;
+}
+/* 텍스트 */
+.pwCheck2{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:235px;
+	top:200px;
+	color:#425FFF;
+}
+/* 인풋 */
+#pwCheck2{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:230px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#pwerror2{
+	position:absolute;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+	left:233px;
+	top:250px;
+}
+.companyname{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:290px;
+	color:#425FFF;
+}
+#companyInputName{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:320px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+.nickname{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:380px;
+	color:#08C299;
+}
+#nickname{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:410px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#nicknameCheckMsg{
+	position:absolute;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+	left:228px;
+	top:440px;
+}
+#email1{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:470px;
+	color:#08C299;
+}
+#userInputEmail{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:500px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#id1:hover{
+	cursor: pointer;
+}
+#id1:active{
+	background-color:#069475;
+}
+#address1{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:560px;
+	color:#08C299;
+}
+#userAddressBtn:hover{
+	cursor: pointer;
+}
+#userAddressBtn:active{
+	background-color:#069475;
+}
+#userpostcode{
+	position: absolute;
+	width:80px;
+	height:20px;
+	top:600px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#userAddressBtn{
+	position: absolute;
+	width:80px;
+	height:30px;
+	background-color:#08C299;
+	top:595px;
+	left:315px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:12px;
+}
+#userroadAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:640px;
+	left:163px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#userjibunAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:640px;
+	left:318px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#userextraAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:670px;
+	left:163px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#userdetailAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:670px;
+	left:318px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#phonenumber1{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:730px;
+	color:#08C299;
+}
+#userInputNumber{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:760px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+.birthday{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:820px;
+	color:#08C299;
+}
+#birthyear select{
+	position: absolute;
+	width:60px;
+	height:20px;
+	top:860px;
+	left:210px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:14px;
+}
+#birthyear p{
+	position: absolute;
+	top:845px;
+	left:270px;
+	font-size:16px;
+}
+#birthyearOp{
+	height: 50px;
+	overflow: scroll;
+}
+#birthmonth select{
+	position: absolute;
+	width:35px;
+	height:20px;
+	top:860px;
+	left:290px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:14px;
+}
+#birthmonth p{
+	position: absolute;
+	top:845px;
+	left:325px;
+	font-size:16px;
+}
+#birthdate select{
+	position: absolute;
+	width:35px;
+	height:20px;
+	top:860px;
+	left:350px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:14px;
+}
+#birthdate p{
+	position: absolute;
+	top:845px;
+	left:385px;
+	font-size:16px;
+}
+#gender{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:235px;
+	top:905px;
+	color:#08C299;
+}
+#genderRadio input[type=radio]{
+    display: none;
+}
+#genderRadio input[type=radio]+label:first-of-type{
+	position:absolute;
+    display: inline-block;
+    cursor: pointer;
+    left:216px;
+	top:945px;
+    height: 25px;
+    width: 80px;
+    border: 2px solid #08C299;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:14px;
+    border-radius: 5px;
+}
+#genderRadio input[type=radio]+label:last-of-type{
+	position:absolute;
+    display: inline-block;
+    cursor: pointer;
+    left:301px;
+	top:945px;
+    height: 25px;
+    width: 80px;
+    border: 2px solid #08C299;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:14px;
+    border-radius: 5px;
+}
+#genderRadio input[type=radio]+label{
+    background-color:white;
+    color:#08C299;
+}
+#genderRadio input[type=radio]:checked+label{
+    background-color: #08C299;
+    color:white;
+}
+#submit1{
+	position: absolute;
+	width:160px;
+	height:40px;
+	background-color:#08C299;
+	top:1030px;
+	left:220px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:18px;
+}
+#submit1:hover{
+	cursor: pointer;
+}
+#submit1:active{
+	background-color: #069475;
+}
+#reset1{
+	position: absolute;
+	width:60px;
+	height:20px;
+	background-color:white;
+	border:none;
+	top:1080px;
+	left:270px;
+	color:#08C299;
+	font-size:12px;
+}
+#reset1:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#reset1:active{
+	cursor: pointer;
+	text-decoration: underline;
+	color:red;
+}
+
+#email2{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:380px;
+	color:#425FFF;
+}
+#companyInputEmail{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:410px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#id2:hover{
+	cursor: pointer;
+}
+#id2:active{
+	background-color:#364ED1;
+}
+#address2{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:470px;
+	color:#425FFF;
+}
+#companyAddressBtn:hover{
+	cursor: pointer;
+}
+#companyAddressBtn:active{
+	background-color:#364ED1;
+}
+#companypostcode{
+	position: absolute;
+	width:80px;
+	height:20px;
+	top:510px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#companyAddressBtn{
+	position: absolute;
+	width:80px;
+	height:30px;
+	background-color:#425FFF;
+	top:505px;
+	left:315px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:12px;
+}
+#companyroadAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:550px;
+	left:163px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#companyjibunAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:550px;
+	left:318px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#companyextraAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:580px;
+	left:163px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#companydetailAddress{
+	position: absolute;
+	width:130px;
+	height:20px;
+	top:580px;
+	left:318px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:13px;
+}
+#phonenumber2{
+	width:130px;
+	position:absolute;
+	font-size:22px;
+	text-align:center;
+	left:240px;
+	top:640px;
+	color:#425FFF;
+}
+#companyInputNumber{
+	position: absolute;
+	width:180px;
+	height:20px;
+	top:670px;
+	left:213px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+	font-size:18px;
+}
+#submit2{
+	position: absolute;
+	width:160px;
+	height:40px;
+	background-color:#425FFF;
+	top:760px;
+	left:220px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:18px;
+}
+#submit2:hover{
+	cursor: pointer;
+}
+#submit2:active{
+	background-color: #364ED1;
+}
+#reset2{
+	position: absolute;
+	width:60px;
+	height:20px;
+	background-color:white;
+	border:none;
+	top:810px;
+	left:270px;
+	color:#425FFF;
+	font-size:12px;
+}
+#reset2:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#reset2:active{
+	cursor: pointer;
+	text-decoration: underline;
+	color:red;
+}

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+li{list-style: none;}
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo {
+	text-align: center;
+}
+.logo h1{
+	font-family: 'Russo One', sans-serif;
+}
+#boxShadow{
+	width:1200px;
+	margin: 0 auto;
+}
+#coplogin{
+	font-family: 'Aboreto', cursive;
+	font-size:12px;
+	margin-top:-30px;
+	color:#425FFF;
+}
+#uselogin{
+	font-family: 'Aboreto', cursive;
+	font-size:12px;
+	margin-top:-30px;
+	color:#08C299;
+}
+section{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#boxShadow{
+	width: 860px;
+	margin:0 auto;
+	margin-bottom:60px;
+	padding:20px 0;
+	padding-bottom:60px;
+	box-shadow: 0 0 10px 0 #adadad;
+	border-radius: 5px;
+}
+textarea {
+	resize:none;
+	border:none;
+	margin-left: -5px;
+	font-size: 15px;
+}
+#companyboardWrite{
+	width: 780px;
+	margin: 20px auto;
+	border:1px solid #d6d6d6;
+}
+#companyboardWrite table{
+	margin:10px 30px;
+}
+#title{
+	width:690px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+	height: 50px;
+	outline: none;
+	border:2px solid black;
+}
+#peopleTd{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight:500;
+	height: 30px;
+	padding-top:10px;
+	font-size:18px;
+}
+#peoplecount{
+	width: 30px;
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: 20px;
+	text-align: center;
+}
+#contents{
+	font-size: 14px;
+	outline: none;
+}
+hr{
+	margin-left:-10px;
+	width:715px;
+}
+#underMenu{
+	margin-left:715px;
+	margin-bottom:-30px;
+	margin-top:-10px;
+}
+#underMenu button{
+	width: 50px;
+	height: 30px;
+	background-color:black;
+	border:none;
+	color:white
+}
+#underMenu button:hover{
+	cursor: pointer;
+}
+#underMenu button:active{
+	background-color: #414141;
+}
+#underMenu input[type=submit]{
+	width: 50px;
+	height: 30px;
+	background-color:black;
+	border:none;
+	color:white
+}
+#underMenu input[type=submit]:hover{
+	cursor: pointer;
+}
+#underMenu input[type=submit]:active {
+	background-color: #414141;
+}

@@ -1,0 +1,350 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+li{list-style: none;}
+a {
+	text-decoration: none;
+	
+}
+
+header {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.LR {
+	position: absolute;
+	right: 0;
+	top: -15px;
+}
+.LR a{
+	color:white;
+}
+
+.LR li {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	float: left;
+	right: 0;
+	border-radius: 5px;
+	background-color:#f3f3f3;
+	padding: 10px 9px;
+	margin-left: 15px;
+}
+.LR li:last-of-type {
+	padding: 10px 20px;
+}
+.logo {
+	text-align: center;
+}
+.logo h1{
+	font-family: 'Russo One', sans-serif;
+}
+#coplogin{
+	font-family: 'Aboreto', cursive;
+	font-size:12px;
+	margin-top:-30px;
+	color:#425FFF;
+}
+#uselogin{
+	font-family: 'Aboreto', cursive;
+	font-size:12px;
+	margin-top:-30px;
+	color:#08C299;
+}
+#adminlogin{
+	font-family: 'Aboreto', cursive;
+	font-size:12px;
+	margin-top:-30px;
+	color:#eeb300;
+}
+section{
+	width: 1200px;
+	height: 1450px;
+	margin: 0 auto;
+	position: relative;
+}
+#userwellcom{
+	font-family: 'Gowun Batang', serif;
+	font-weight:700;
+	position:absolute;
+	color:#08C299;
+	font-size:14px;
+	width:300px;
+	top:65px;
+	right:1px;
+	text-align: right;
+}
+#companywellcom{
+	font-family: 'Gowun Batang', serif;
+	font-weight:700;
+	position:absolute;
+	color:#425FFF;
+	font-size:14px;
+	width:300px;
+	top:65px;
+	right:1px;
+	text-align: right;
+}
+.mainsection{
+	position: absolute;
+	width:1200px;
+}
+.mainsection a{
+	color:white;
+}
+.mainsection a:first-of-type{
+	position: absolute;
+	display:inline-block;
+	padding:10px 20px;
+	top:60px;
+	left:390px;
+	background: black;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.mainsection a:first-of-type:active{
+	background:#313131;
+}
+.mainsection a:nth-of-type(2):active{
+	background:#313131;
+}
+.mainsection a:last-of-type:active{
+	background:#313131;
+}
+.mainsection a:nth-of-type(2){
+	position: absolute;
+	display:inline-block;
+	padding:10px 46px;
+	top:60px;
+	left:530px;
+	background: black;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.mainsection a:last-of-type{
+	position: absolute;
+	display:inline-block;
+	padding:10px 46px;
+	top:60px;
+	left:670px;
+	background: black;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.previewmenu{
+	position: absolute;
+	top:170px;
+	left:170px;
+	width: 850px;
+}
+#boxShadow{
+	width: 800px;
+	margin:0 auto;
+	padding:20px 0;
+	padding-bottom:60px;
+	box-shadow: 0 0 10px 0 #adadad;
+	border-radius: 5px;
+}
+#communityboard p{
+	margin-top:30px;
+	font-size: 30px;
+	text-align: center;	
+}
+#communityboard table{
+	width:600px;
+	margin: 0 auto;
+}
+#communityboard table{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+#communityboard tr,td{
+	border-top: none;
+	border-left: 2px solid white;
+	border-right: none;
+	border-collapse: collapse;
+}
+#communityboard tr:first-of-type {
+	background-color:black;
+	color:white;
+	text-align: center;
+}
+#communityboard tr:nth-of-type(3){
+	background-color:#f6f6f6;
+}
+#communityboard tr:nth-of-type(5){
+	background-color:#f6f6f6;
+}
+#communityboard td:first-of-type {
+	width: 350px;
+	height:45px;
+	table-layout: fixed;
+}
+#communityboard td:nth-of-type(2) {
+	max-width:40px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#communityboard td:nth-of-type(3) {
+	width: 80px;
+	table-layout: fixed;
+}
+#communityboard td:last-of-type {
+	width: 60px;
+	table-layout: fixed;
+}
+#commuNickname, #commuWtime, #commuViewcount{
+	text-align: center;
+}
+#commuOverflow{
+	max-width:350px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#companyboard p{
+	font-size: 30px;
+	text-align: center;	
+}
+#companyboard table{
+	width:600px;
+	margin: 0 auto;
+}
+#companyboard table{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+#companyboard tr,td{
+	border-top: none;
+	border-left: 2px solid white;
+	border-right: none;
+	border-collapse: collapse;
+}
+#companyboard tr:first-of-type {
+	background-color:black;
+	color:white;
+	text-align: center;
+}
+#companyboard tr:nth-of-type(3){
+	background-color:#f6f6f6;
+}
+#companyboard tr:nth-of-type(5){
+	background-color:#f6f6f6;
+}
+#companyboard td:first-of-type {
+	width: 310px;
+	height:45px;
+	table-layout: fixed;
+}
+#companyboard td:nth-of-type(2) {
+	max-width:50px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#companyboard td:nth-of-type(3) {
+	width: 80px;
+}
+#companyboard td:last-of-type {
+	width: 90px;
+}
+#companyName, #companyWtime, #companyPeoplecount{
+	text-align: center;
+}
+#companyOverflow{
+	max-width:310px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#userboard p{
+	font-size: 30px;
+	text-align: center;	
+}
+#userboard table{
+	width:600px;
+	margin: 0 auto;
+}
+#userboard table{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+#userboard tr,td{
+	border-top: none;
+	border-left: 2px solid white;
+	border-right: none;
+	border-collapse: collapse;
+}
+#userboard tr:first-of-type {
+	background-color:black;
+	color:white;
+	text-align: center;
+}
+#userboard tr:nth-of-type(3){
+	background-color:#f6f6f6;
+}
+#userboard tr:nth-of-type(5){
+	background-color:#f6f6f6;
+}
+#userboard td:first-of-type {
+	width: 330px;
+	height:45px;
+	table-layout: fixed;
+}
+#userboard td:nth-of-type(3) {
+	width: 80px;
+}
+#userboard td:last-of-type {
+	width: 110px;
+}
+#userGender, #userWtime, #userProgramcount{
+	text-align: center;
+}
+#companyOverflow{
+	max-width:330px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#communityboard a{
+	color:black
+}
+#communityboard a:hover{
+	text-decoration: underline;
+}
+#companyboard a{
+	color:black
+}
+#companyboard a:hover{
+	text-decoration: underline;
+}
+#userboard a{
+	color:black
+}
+#userboard a:hover{
+	text-decoration: underline;
+}

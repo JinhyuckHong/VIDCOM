@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#body{
+	background-color:#efe9bf;
+}
+
+.box{
+	position:relative;
+	width: 400px;
+	height: 500px;
+	margin:100px auto;
+	background: white;
+	box-shadow: 0px 0px 20px 0px #ddc17f;
+	border-radius: 10px;
+}
+
+.loginBoxLeft{
+	position:absolute;
+	margin:25px 10px;
+	margin-left:30px;
+	width: 450px;
+	height: 400px;
+}
+
+#adminlogindisplay{
+	position: absolute;
+	left:40px;
+	top:70px;
+}
+.adminId {
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:85px;
+	top:0px;
+	color:#eeb300;
+}
+.adminPw{
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:85px;
+	top:100px;
+	color:#eeb300;
+}
+#inputAdminId{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:50px;
+	left:43px;
+ 	border-width:2px;
+ 	border-bottom-color:#eeb300;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#inputAdminPw{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:150px;
+	left:43px;
+ 	border-width:2px;
+ 	border-bottom-color:#eeb300;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#adminsubmitBtn{
+	position: absolute;
+	width:150px;
+	height:40px;
+	background-color:#eeb300;
+	border-radius:5px;
+	border:none;
+	top:240px;
+	left:45px;
+	font-size:20px;
+	color:white;
+}
+#adminsubmitBtn:hover{
+	cursor: pointer;
+}
+#adminsubmitBtn:active{
+	background-color:#aa8101;
+}
+#adminlogo{
+	position: absolute;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	color:#aa8101;
+	text-decoration:none;
+	top:20px;
+	left:95px;
+	font-size:20px;
+}

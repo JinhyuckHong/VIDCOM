@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#body{
+	background-color:#E2F5F0;
+}
+
+.box{
+	position:relative;
+	width: 1000px;
+	height: 500px;
+	margin:100px auto;
+	background: white;
+	box-shadow: 0px 0px 20px 0px #069475;
+	border-radius: 10px;
+}
+
+.loginBoxLeft{
+	position:absolute;
+	margin:25px 10px;
+	margin-left:30px;
+	width: 450px;
+	height: 400px;
+}
+
+.loginbtn button:first-of-type{
+	position:absolute;
+	left:30px;
+	margin:40px 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 10px;
+	border-color:black;
+	border:2px;
+	color:white;
+	background-color:#08C299;
+	font-size: 15px;
+}
+.loginbtn button:first-of-type:hover{
+	cursor:pointer;
+}
+.loginbtn button:first-of-type:active{
+	background-color:#069475;
+}
+
+.loginbtn button:last-of-type{
+	position:absolute;
+	left:140px;
+	margin:40px 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 10px;
+	border-color:black;
+	border:2px;
+	color:white;
+	background-color:#425FFF;
+	font-size: 15px;
+}
+
+.loginbtn button:last-of-type:hover{
+	cursor:pointer;
+}
+.loginbtn button:last-of-type:active{
+	background-color:#364ED1;
+}
+#userlogindisplay{
+	position: absolute;
+	left:40px;
+	top:70px;
+}
+#companylogindisplay{
+	position: absolute;
+	left:40px;
+	top:70px;
+}
+.userId {
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:65px;
+	top:30px;
+	color:#08C299;
+}
+.userPw{
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:65px;
+	top:130px;
+	color:#08C299;
+}
+#inputUserId{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:80px;
+	left:23px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#inputUserPw{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:180px;
+	left:23px;
+ 	border-width:2px;
+ 	border-bottom-color:#08C299;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#usersubmitBtn{
+	position: absolute;
+	width:150px;
+	height:40px;
+	background-color:#08C299;
+	border-radius:5px;
+	border:none;
+	top:250px;
+	left:25px;
+	font-size:20px;
+	color:white;
+}
+#usersubmitBtn:hover{
+	cursor: pointer;
+}
+#usersubmitBtn:active{
+	background-color:#069475;
+}
+
+#userRegisterBtn{
+	position: absolute;
+	width:60px;
+	top:320px;
+	left:73px;
+	font-size: 15px;
+	text-decoration: none;
+}
+#userRegisterBtn:hover{
+	text-decoration:underline;
+}
+.companyId {
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:65px;
+	top:30px;
+	color:#425FFF;
+}
+.companyPw{
+	width:70px;
+	position:absolute;
+	font-size:20px;
+	text-align:center;
+	left:65px;
+	top:130px;
+	color:#425FFF;
+}
+#inputCompanyId{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:80px;
+	left:23px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#inputCompanyPw{
+	position: absolute;
+	width:150px;
+	height:20px;
+	top:180px;
+	left:23px;
+ 	border-width:2px;
+ 	border-bottom-color:#425FFF;
+ 	border-top:none;
+ 	border-left:none;
+ 	border-right:none;
+	outline:none;
+	text-align: center;
+}
+#companysubmitBtn{
+	position: absolute;
+	width:150px;
+	height:40px;
+	background-color:#425FFF;
+	border-radius:5px;
+	border:none;
+	top:250px;
+	left:25px;
+	font-size:20px;
+	color:white;
+}
+#companysubmitBtn:hover{
+	cursor: pointer;
+}
+#companysubmitBtn:active{
+	background-color:#364ED1;
+}
+
+#companyRegisterBtn{
+	position: absolute;
+	width:60px;
+	top:320px;
+	left:73px;
+	font-size: 15px;
+	text-decoration: none;
+}
+#companyRegisterBtn:hover{
+	text-decoration:underline;
+}
+
+.loginBoxRight{
+	width:840px;
+	height:575px;
+	position: absolute;
+	left:450px;
+	top:80px;
+}
+#mainlogo{
+	position: absolute;
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	color:black;
+	text-decoration:none;
+	left:100px;
+	font-size:20px;
+}
+
+#loginError{
+	position:absolute;
+	top:74px;
+	left:12px;
+	color:red;
+	font-size:15px;
+}
