@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"> 
 <meta name="description" content="HTML Study">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="author" content="Bruce">
